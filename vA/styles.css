@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+html { scroll-behavior: smooth; }
+
+.bg-blue{ background-color: #2f61c4; color: #fff; }
+.bg-grey{ background-color: #f4f4f4; color: #2f61c4; }
+.bg-white{ background-color: #fff; color: #2f61c4; }
+
+.btn-white { background-color: #fff; color: #4900a4; transition: all .3s ease; }
+.btn-white:hover { box-shadow: 0px 0px 4px #fff; color: #3f0586 !important;  }
+.btn-blue { background-color: #4900a4; color: #fff; transition: all .3s ease; }
+.btn-blue:hover { box-shadow: 0px 0px 4px #4900a4; color: #fff !important;  }
+
+h1, h2, h3, h4, h5, p, button { font-family: -apple-system,BlinkMacSystemFont,"Montserrat","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif; font-weight: 400 }
+.btn { border-radius: 30px; text-transform: uppercase; font-weight: 700; padding: .6rem 2.4rem; }
+
+
+.img-logo { background-image: url('assets/logo.png'); height: 100%; background-position: center; background-repeat: no-repeat; }
+.img-boxes { background-image: url('assets/boxes.png'); height: 100%; width: 100%; background-size: contain; background-position: center; background-repeat: no-repeat;}
+.img-scroll { margin: auto; }
+.img-ic1 { background-image: url('assets/ic1.png'); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.img-ic2 { background-image: url('assets/ic2.png'); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.img-ic3 { background-image: url('assets/ic3.png'); background-size: contain; background-position: center; background-repeat: no-repeat; }
+
+.wrapper { width: 85%; max-width: 960px; margin: auto; }
+
+header { height: 100px; padding: 10px; }
+section, footer { padding: 4rem 0; }
+
+h1 { padding: 2rem 7rem 2rem 0; }
+h2 { padding: 1rem 7rem 1rem 0; }
+h3 { font-size: 2rem; font-weight: 700;}
+.cta p { font-size: 1.1rem; padding: 1rem 7rem 1rem 0; margin-bottom: 2rem; }
+
+.flex-content { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.content-box { flex: 1 0 25%; margin: 1rem; background-color: #ececec; border-radius: 8px; padding: 2.5rem; text-align: center; }
+.content-box p { color: #888; margin-bottom: 0; font-weight: 500; }
+.img-icon { height: 64px; margin-bottom: 3rem;  }
+
+.btn-blue { background-color: #4900a4; color: #fff; transition: all .3s ease; }
+input { background-color: #e2e2e2; color: #333; border: none; border-radius: 30px; padding: .6rem 2.4rem; }
+form input { margin-bottom: .6rem; margin-right: .6rem; }
+form button svg { height: 1rem; width: 1rem; fill: #fff; margin-right: 1rem; }

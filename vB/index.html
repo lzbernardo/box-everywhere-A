@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Everywhere</title>
+  <meta charset="utf-8" />
+  <meta author="lzbernardo" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="scroll-animation.css">
+</head>
+<body>
+  <header class="bg-grey">
+    <div class="img-logo"></div>
+  </header>
+  <section class="bg-white" id="about">
+    <div class="wrapper row">
+      <div class="col-md-6">
+        <h1>Você está apenas alguns cliques de <strong>conseguir gerar saving em compras de embalagens</strong></h1>
+      </div>
+      <div class="col-md-6">
+        <div class="img-boxes"></div>
+      </div>
+      <div class="img-scroll">
+        <svg width="20px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+        	<path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#ccc;stroke-width:20px;"/>
+        	<path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#ccc;stroke-width:20px;"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <section class="bg-blue" id="about">
+    <div class="wrapper row">
+      <div class="col-md-6">
+        <h2><strong>Bewe é o seu parceiro na compra de embalagem de papelão ondulado </strong>de maneira ágil e segura.</h2>
+      </div>
+      <div class="col-md-6 cta">
+        <p>Uma solução digital conectada aos melhores fornecedores do mercado. Oferecemos o atendimento e a confiabilidade que você precisa, garantindo sua compra do desenvolvimento até a entrega.</p>
+        <button onClick="
+          document.querySelector('#convert').scrollIntoView({
+            behavior: 'smooth'
+          });
+          " class="btn btn-white">Quero saber mais</button>
+      </div>
+    </div>
+  </section>
+  <section class="bg-grey" id="content">
+    <div class="wrapper flex-content">
+      <div class="content-box">
+        <div class="img-icon img-ic1"></div>
+        <p>Desenvolvemos a embalagem ideal para o seu produto, otimizando sua performance</p>
+      </div>
+      <div class="content-box">
+        <div class="img-icon img-ic2"></div>
+        <p>Direcionamos ao fornecedor com a característica produtiva ideal e perto de você</p>
+      </div>
+      <div class="content-box">
+        <div class="img-icon img-ic3"></div>
+        <p>Todo o processo é online e transparente pela nossa plataforma</p>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white">
+    <div class="wrapper row">
+      <div class="col-md-5">
+        <h3>Quer fazer parte<br /> dessa novidade?</h3>
+        <p>Cadastre seu e-mail</p>
+      </div>
+      <div class="col-md-7">
+        <form action="https://formspree.io/xdopopvr" id="convert" method="POST">
+          <input type="email" name="_replyto" placeholder="SEU EMAIL">
+          <button type="submit" class="btn btn-blue">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+            	<g>
+            		<path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121
+            			C512,114.073,510.297,107.588,507.49,101.721z"></path>
+            	</g>
+            </g>
+            <g>
+            	<g>
+            		<path d="M467,76H45c-6.927,0-13.412,1.703-19.279,4.51l198.463,197.463c17.548,17.548,46.084,17.548,63.632,0L486.279,80.51
+            			C480.412,77.703,473.927,76,467,76z"></path>
+            	</g>
+            </g>
+            <g>
+            	<g>
+            		<path d="M4.51,101.721C1.703,107.588,0,114.073,0,121v270c0,6.927,1.703,13.413,4.51,19.279L159.789,256L4.51,101.721z"></path>
+            	</g>
+            </g>
+            <g>
+            	<g>
+            		<path d="M331,277.211l-21.973,21.973c-29.239,29.239-76.816,29.239-106.055,0L181,277.211L25.721,431.49
+            			C31.588,434.297,38.073,436,45,436h422c6.927,0,13.412-1.703,19.279-4.51L331,277.211z"></path>
+            	</g>
+            </g>
+            </svg>
+             tenho interesse</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

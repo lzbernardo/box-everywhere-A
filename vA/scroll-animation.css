@@ -1,0 +1,24 @@
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  30% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  30% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+svg #wheel {
+  -webkit-animation: scroll ease 1.5s infinite;
+          animation: scroll ease 1.5s infinite;
+}
