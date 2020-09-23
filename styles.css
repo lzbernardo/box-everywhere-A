@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
+
+html { scroll-behavior: smooth; }
+
 .bg-blue{ background-color: #2f61c4; color: #fff; }
 .bg-grey{ background-color: #f4f4f4; color: #2f61c4; }
 .bg-white{ background-color: #fff; color: #2f61c4; }
